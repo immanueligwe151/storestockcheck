@@ -1,0 +1,15 @@
+a bag of minis is 40
+a bag of fillets is 20
+a bag of zingers is 20
+a bag of hot wings is 65
+
+1 mini is 17p
+1 fillet is 25p
+1 zinger is 25p
+1 hot wing is 18p
+
+the google worksheet will show how much was made on each product for the previous day
+the user will input how many of each product has been sold on the day
+the program will add these to the sheets
+the user will input how many of each product is left (loose and bags)
+using this information, the program will determine how many bags should be brought out to defrost for the next day
