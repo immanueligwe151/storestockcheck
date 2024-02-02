@@ -3,13 +3,16 @@ a bag of fillets is 20
 a bag of zingers is 20
 a bag of hot wings is 65
 
-1 mini is 17p
-1 fillet is 25p
-1 zinger is 25p
-1 hot wing is 18p
+1 mini is £1.25
+1 fillet is £3.00
+1 zinger is £3.00
+1 hot wing is £1.05
 
-the google worksheet will show how much was made on each product for the previous day
+the google worksheet shows how much was made on each product for the previous day
+the program will pull this information and calculate how many pieces were sold on the previous day
 the user will input how many of each product has been sold on the day
 the program will add these to the sheets
-the user will input how many of each product is left (loose and bags)
+the user will input how many of each product is on hand (loose and bags)
 using this information, the program will determine how many bags should be brought out to defrost for the next day
+
+https://www.geeksforgeeks.org/hiding-and-encrypting-passwords-in-python/
