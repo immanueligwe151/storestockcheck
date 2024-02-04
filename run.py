@@ -148,7 +148,7 @@ def manager_menu():
             print("Thank you, bye for now!")
             quit()
         else:
-            print("You've selected an invalid option, please select 1 or 2.")
+            print("You've selected an invalid option, please select 1, 2 or 3.")
 
 #this shows the login page first when the program loads
 if (login()):
