@@ -36,11 +36,11 @@ def amount_input(item, itemtype):
     while (not valid):
         try:
             if (itemtype == "itemsold"):
-                data = input("Number of " + item + " sold today:  ")
+                data = input("Number of " + item + " sold today:  \n")
             elif (itemtype == "bagsleft"):
-                data = input("Number of bags of " + item + " remaining:  ")
+                data = input("Number of bags of " + item + " remaining:  \n")
             elif (itemtype == "looseleft"):
-                data = input("Number of loose " + item + " remaining:  ")
+                data = input("Number of loose " + item + " remaining:  \n")
             int(data) 
         except:
             print("Invalid, please enter a numerical value.")
@@ -69,8 +69,8 @@ def login():
     print("Welcome manager, please log in to continue:")
     logged_in = False
     while (logged_in == False):
-        user_name = input("Username:  ")
-        password = maskpass.askpass(prompt="Password:  ", mask="")
+        user_name = input("Username:  \n")
+        password = maskpass.askpass(prompt="Password:  \n", mask="")
         if (user_name == "kfcmanager1" and password == "fngerlickch1ckn"):
             print("You have succesfully logged in.\n\n")
             logged_in = True
@@ -136,7 +136,7 @@ def manager_menu():
     print("1. Check yesterday's sales\n2. Calculate defrost for tomorrow\n3. Quit")
     valid = False
     while(not valid):
-        selected_option = input("\nPlease select an option: ")
+        selected_option = input("\nPlease select an option: \n")
         if (selected_option == "1"):
             view_sales()
             valid = True
